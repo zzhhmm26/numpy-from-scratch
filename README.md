@@ -317,7 +317,7 @@ $$
 
 $$
 \frac{\partial}{\partial w_j}\lambda|w_j|
-=\lambda\operatorname{sign}(w_j)
+=\lambda\mathrm{sign}(w_j)
 $$
 
 L1 更容易产生稀疏参数，也可能产生类似 Feature Selection 的效果。准确说法是：非零参数的 L1 penalty 梯度绝对值为 λ；零点使用次梯度理解。
@@ -609,5 +609,4 @@ PyTorch Tensor → Autograd → nn.Module → Loss → Optimizer → MLP
 | 日期 | 更新内容 |
 |---|---|
 | 2026-09 | 整理 ML Fundamentals、两个 NumPy from-scratch 程序、易错点和 PyTorch 学习路线 |
-
 
